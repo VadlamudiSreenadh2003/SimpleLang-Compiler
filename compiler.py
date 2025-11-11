@@ -12,8 +12,8 @@ TOKENS = [
     (r'-',                 'MINUS'),
     (r'==',                'EQ'),
     (r'=',                 'ASSIGN'),
-    (r'\(',                'LPAREN'),   # ✅ added (
-    (r'\)',                'RPAREN'),   # ✅ added )
+    (r'\(',                'LPAREN'),   
+    (r'\)',                'RPAREN'),  
     (r'\{',                'LBRACE'),
     (r'\}',                'RBRACE'),
     (r';',                 'SEMI'),
