@@ -3,7 +3,7 @@ import re
 
 # -------- Lexer ---------
 TOKENS = [
-    (r'//.*',              None),     # ignore comments
+    (r'//.*',              None),    
     (r'int',               'INT'),
     (r'if',                'IF'),
     (r'\d+',               'NUMBER'),
